@@ -1,0 +1,48 @@
+.unations {
+  margin-top: 70px;
+}
+
+.unation_text {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20;
+}
+
+.unation_head {
+  text-align: center;
+  color: black;
+  font-size: 50px;
+}
+
+.unation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.unation_list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.unation_item {
+  font-size: 15px;
+  width: 340px;
+}
+
+.unation_btn {
+  margin-left: 530px;
+  margin-top: 25px;
+  font-size: 20px;
+  background: linear-gradient(rgb(85, 179, 255), rgb(20, 89, 150));
+  color: #ffffff;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 15px;
+}

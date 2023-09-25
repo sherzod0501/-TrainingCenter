@@ -1,0 +1,127 @@
+.navbar {
+  max-width: 1300px;
+  padding: 0px 20px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar_logo {
+  width: 80px;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+/* navbar links */
+.navbar_ul {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar_ul_li {
+  color: rgb(34, 32, 32);
+  font-size: larger;
+  font-weight: 400;
+  text-decoration: none;
+}
+.navbar_ul_li:hover {
+  color: #ffc301;
+}
+
+.active-link {
+  font-size: larger;
+  font-weight: 400;
+  color: #ffc301;
+  text-decoration: none;
+}
+
+.navbar_phone {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 180px;
+  height: 60%;
+}
+/* Phone hover */
+.navbar_phone:hover {
+  cursor: pointer;
+}
+.navbar_phone:hover > .navbar_phone_number {
+  color: #ffc301;
+  transition: 0.3s;
+}
+.navbar_phone:hover > .navbar_phone_trunk > .bi-telephone-fill {
+  fill: white;
+  transition: 0.3s;
+}
+.navbar_phone:hover > .navbar_phone_trunk {
+  background-color: #ffc301;
+  transition: 0.3s;
+}
+.bi-telephone-fill {
+  fill: #ffc301;
+}
+.navbar_phone_trunk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+}
+.navbar_phone_number {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  font-weight: 600;
+}
+.own_cabinet {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
+  height: 60%;
+  border-radius: 30px;
+  background-color: #ffc301;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+.own_cabinet_person {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.own_cabinet_word {
+  color: black;
+  font-size: larger;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.language {
+  width: 70px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  background-color: #ffffff;
+  padding: 5px;
+  cursor: pointer;
+}

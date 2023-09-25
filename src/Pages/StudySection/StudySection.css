@@ -1,0 +1,56 @@
+.StudySection {
+  margin-top: 60px;
+}
+
+.StudySection_head {
+  text-align: center;
+  width: 500px;
+  font-size: 40px;
+  margin-left: 390px;
+}
+
+.studySection_text {
+  text-align: center;
+  width: 420px;
+  margin-left: 430px;
+  font-size: 16px;
+}
+
+.studySection_form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 550px;
+  padding: 30px;
+  gap: 20px;
+  border-radius: 15px;
+  background-color: rgb(240, 214, 16);
+}
+
+.studySection_input {
+  padding: 15px;
+  padding-right: 195px;
+  border-radius: 15px;
+  border: none;
+}
+
+.studySection_btn {
+  margin-top: 20px;
+  font-size: 20px;
+  background: linear-gradient(rgb(85, 179, 255), rgb(20, 89, 150));
+  color: #ffffff;
+  padding: 10px 170px;
+  border: none;
+  border-radius: 15px;
+}
+
+.studySection_main {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.fivePeople_img {
+  border-radius: 15px;
+}

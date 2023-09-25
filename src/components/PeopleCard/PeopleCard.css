@@ -1,0 +1,25 @@
+.peopleCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 570px;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 15px;
+  padding-right: 60px;
+  margin-top: 30px;
+}
+
+.peopleCard_text {
+  font-size: 18px;
+  margin: 10px;
+}
+
+.peopleCard_ball {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.peopleCard_span_ball {
+  font-size: 25px;
+}

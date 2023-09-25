@@ -1,0 +1,13 @@
+.Card {
+  margin-top: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  padding-bottom: 30px;
+  max-width: 300px !important;
+  min-width: 300px;
+}
+
+.Card_head-4 {
+  text-align: center;
+}

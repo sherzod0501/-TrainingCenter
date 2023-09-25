@@ -1,0 +1,25 @@
+.CardSection_head {
+  color: black;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.cards {
+  display: flex;
+  width: 1300px;
+  align-items: center;
+  gap: 30px;
+  overflow: auto;
+  scrollbar-width: none;
+  user-select: none;
+}
+.Card_btn {
+  margin-left: 530px;
+  margin-top: 40px;
+  font-size: 20px;
+  background: linear-gradient(rgb(85, 179, 255), rgb(20, 89, 150));
+  color: #ffffff;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 15px;
+}

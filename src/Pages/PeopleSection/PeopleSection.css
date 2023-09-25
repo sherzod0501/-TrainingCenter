@@ -1,0 +1,26 @@
+.people {
+  margin-top: 60px;
+}
+
+.people_head {
+  text-align: center;
+  color: black;
+  font-size: 50px;
+}
+
+.people_text {
+  width: 600px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18;
+  margin-left: 350px;
+}
+
+.peopleCards {
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  scrollbar-width: none;
+  user-select: none;
+  gap: 30px;
+}
