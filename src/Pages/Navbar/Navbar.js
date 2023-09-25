@@ -56,7 +56,7 @@ export const Navbar = () => {
             width="16"
             height="16"
             fill="currentColor"
-            class="bi bi-telephone-fill"
+            className="bi bi-telephone-fill"
             viewBox="0 0 16 16"
           >
             <path
@@ -77,7 +77,8 @@ export const Navbar = () => {
             width="16"
             height="16"
             fill="currentColor"
-            class="bi bi-person"
+            // className="bi bi-person"
+
             viewBox="0 0 16 16"
           >
             <path

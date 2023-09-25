@@ -41,11 +41,7 @@ export const SignUp = () => {
         <h1>Sign up</h1>
         <div className="login-top">
           <p>Already have an anaccount</p>
-          <NavLink
-            className="login-link"
-            to="/login
-          "
-          >
+          <NavLink className="login-link" to="/login">
             Sign In
           </NavLink>
         </div>
